@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    background-color: #f1f1f3;
+    font-family: "Fira Sans";
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Navbar section starts here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar a {
+    color: #0e0e0e;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navbar button {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+
+/* hero section starts here */
+
+.hero {
+    border-radius: 24px;
+    background: #C6E4D6;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 80px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.hero-content h1 {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-content h2 {
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.hero-content button {
+    border-radius: 8px;
+    background: #006A50;
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.image-hero img {
+    width: 474.03px;
+    height: 400px;
+}
+
+/* pillars section starts here */
+
+
+.pillars {
+    padding-bottom: 80px;
+}
+
+.pillars h2 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pillars-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.pillars-card {
+    margin-top: 32px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.pillars-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+.pillars-card h3 {
+    color: #0E0E0E;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pillars-card p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
