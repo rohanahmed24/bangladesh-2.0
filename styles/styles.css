@@ -358,7 +358,7 @@
 
 /* opinion section starts here */
 
-.opinion-box-wrapper{
+.opinion-box-wrapper {
     padding: 32px;
     background-color: #fff;
     border-radius: 16px;
@@ -466,4 +466,369 @@
     font-size: 16px;
     font-weight: 600;
     padding: 24px;
+}
+
+/* recent news section starts here */
+
+.recent-news-content h2 {
+    padding-top: 80px;
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recent-news-description {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.recent-news-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.recent-news-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #FFF;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.recent-news-card>img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.recent-news-card-content h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.news-logo {
+    margin-top: 12px;
+}
+
+.news-logo img {
+    width: 134px;
+    height: 40px;
+}
+
+.date-and-time {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+.date-and-time p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.recent-news-card-content p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.recent-news-card-content button {
+    display: flex;
+    padding: 13px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 32px;
+}
+
+.recent-news-card-content button:hover {
+    background-color: #fff;
+    color: #006A50;
+    cursor: pointer;
+    scale: 1.01;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+/* donate section starts here */
+
+.donate {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.donate-content h2 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donate-description {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 1104px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-money-box {
+    width: 1071px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.donate-money {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.donate-money h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.active {
+    background: #C6E4D6;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.donate-money:hover {
+    background: #C6E4D6;
+    color: rgba(14, 14, 14, 0.80);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.donate-input {
+    width: 1032px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-input input {
+    padding: 20px 40px;
+    width: 100%;
+    border: none;
+    background: #FFF;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.donate-input input::placeholder {
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.donate-input button {
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.donate-input button:hover {
+    background-color: #fff;
+    color: #006A50;
+    cursor: pointer;
+    scale: 1.01;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+/* newsletter section starts here */
+
+.newsletter {
+    display: flex;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.newsletter-description {
+    width: 622px;
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-input input {
+    display: flex;
+    width: 600px;
+    padding: 18px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    border: none;
+}
+
+.newsletter-input [type="email"] {
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter-input [type="email"]::placeholder {
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter-input button {
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.newsletter-input button:hover {
+    background-color: #fff;
+    color: #006A50;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.newsletter-promise {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+/* footer section starts here */
+
+
+.footer {
+    display: flex;
+    padding: 80px 160px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.divider {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 1122px;
+    height: 1px;
+    background: rgba(14, 14, 14, 0.10);
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
 }
